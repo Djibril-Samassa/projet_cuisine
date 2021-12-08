@@ -92,7 +92,8 @@ main>h2{
 }
 
 .article>p{
-    font-family:"oswald"
+    font-family:"oswald";
+    width:90%;
 }
 
 aside{
@@ -127,9 +128,6 @@ button{
     margin-left:5px;
 }
 
-.formulaire{
-    background-color: purple;
-}
 
 form div {
     margin-bottom:1rem;
@@ -137,13 +135,22 @@ form div {
 label{
     font-family:"courgette";
 }
+
+.reseaux{
+    display: flex;
+    justify-content: space-between;
+    width:120px;
+    color:black;
+}
+
 input{
     font-family: "oswald";
     border-color:rgb(189, 189, 189);
     border-radius:0.41rem;
     border-style: solid;
 }
-.share{
+
+#formulaire p{
     font-family:"courgette";
 }
 
@@ -156,20 +163,35 @@ footer{
     padding:0;
 }
 
+#titremenu{
+    margin:20px;
+}
+
 #menufooter h3{
     padding:0;
     font-family: "courgette";
 }
 
+#menufooter{
+    text-align:left;
+}
+
+#sousmenufooter{
+    text-align: left;
+}
+
 #sousmenufooter a{
-    color:white;
+    color:lightgray;
     text-align:left;
     font-family: "oswald";
 }
 
+
+
 footer h5{
     font-family: "courgette";
 }
+
 
 
 .col label{
