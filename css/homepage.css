@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Courgette";
+    src: url(/fonts/Courgette/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+.header-img{
+
+}
+
+#navbar{
+    font-family: "courgette";
+}
+
+#right-link{
+    font-family:"oswald";
+}
+
+.container-fluid>div{
+    display: flex;
+    flex-direction: row-reverse;
+}
