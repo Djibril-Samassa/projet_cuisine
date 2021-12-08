@@ -8,11 +8,9 @@
     src: url(/fonts/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
-.header-img{
-
-}
 
 #navbar{
+    color:white;
     font-family: "courgette";
 }
 
@@ -23,4 +21,30 @@
 .container-fluid>div{
     display: flex;
     flex-direction: row-reverse;
+}
+
+.header{
+	background: transparent url('/img/header.jpg');
+    min-width: 100%;
+    max-width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('/img/header.jpg');
+}
+
+.container{
+    text-align: center;
+    padding:5em;
+    margin:0px auto;
+}
+
+#container-{
+    text-align:center;
+}
+
+.header-title{
+    font-family: "courgette";
+    color:white;
+}
+
+.logo{
+    margin-bottom:2em;
 }
