@@ -37,7 +37,8 @@
 
 .container{
     text-align: center;
-    padding:5em;
+    padding-top:5vh;
+    padding-bottom:20vh;
     margin:0px auto;
 }
 
@@ -51,5 +52,44 @@
 }
 
 .logo{
-    margin-bottom:2em;
+    margin-bottom:2vh;
+    width:10%;
+    height:10%;
+}
+
+/*-----MAIN-----*/
+main{
+    padding:10px;
+}
+
+main>h3{
+    font-family:"Oswald";
+    margin:5vh 0 5vh 0;
+    text-align:center;
+}
+
+
+#da{
+    display:flex;
+    background-color: green;
+    margin:2em;
+    padding:2em;
+}
+
+.col img{
+    width:180px;
+    height:100px;
+}
+
+.article>h2{
+    font-family:"courgette";
+}
+
+aside{
+    text-align:end;
+    
+}
+button{
+    color:white;
+    border-radius:1%;
 }
