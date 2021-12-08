@@ -44,54 +44,135 @@
     </header>
 
     <main>
-        <h3>Derniers articles</h3>
+
+        <h2>Derniers articles</h2>
+        <div class="container" id="general">
+
+            <div class="row">
+                <div class="col-11">
+                    <div class="container" id="cont22">
+                        <div class="row flex-column" id="article-container">
+            
+                            <div class="col" id="da">
+                                <img class="resto-image" src="/img/articles/suzette/suzette-small.jpg"/>
+                                <div class="article">
+                                    <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                                    <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au fromet ou au sarrazin</p>
+                                </div>
+                            </div>
+            
+                            <div class="col" id="da">
+                                <img class="resto-image" src="/img/articles/metro/metro-small.jpg"/>
+                                <div class="article">
+                                    <h3>Le Metro Dessert</h3>
+                                    <p>Germain est ferrovipathe (ndlr: fan de train). son fils Maxime est pâtissier. Ils ont décider de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument. Mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
+                                </div>
+                            </div>
+            
+                            <div class="col" id="da">
+                                <img class="resto-image" src="/img/articles/vitaly/vitaly-small.jpg"/>
+                                <div class="article">
+                                    <h3>Vitaly, le végan Italien</h3>
+                                    <p>Quand on pense italien. On pense lasagne et jambon de parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivors. Cette fois, c'est moi Tony qui vais le tester pour vous</p>
+                                </div>
+                            </div>
+
+                            <div class="retour">
+                                <span aria-hidden="true">&laquo;</span>
+                                <p class="retour"> voir les articles precedentes</p>
+                            </div>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1" id="formulaire">
+                    <form action="/my-handling-form-page" method="post">
+                        <div>
+                            <label for="site-search">Recherche</label>
+                            <br>
+                            <input type="search" id="site-search" name="q" placeholder="Recherche..."
+                            aria-label="Search through site content"><br>
+                            <button>Ok</button>
+                        </div>    
+                        <div>
+                            <label for="site-search">Newsletter</label>
+                            <br>
+                            <input type="text" placeholder="Email..." name="mail" required>
+                            <br>
+                            <button type="submit">S'inscrire</button>
+                        </div>
+                        <div>
+                            <a class="share">Partager</a>
+                                
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
         <div class="container">
-            <div class="row flex-column">
+            <div class="row">
 
-                <div class="col" id="da">
-                    <img src="/img/articles/suzette/suzette-small.jpg"/>
-                    <div class="article">
-                        <h2>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h2>
+                <div class="col">
+                    <div class="" id="menufooter">
+                        <h3>Catégories</h3>
+                        <div class="container categorie" id="last">
+                            <div class="row flex-column" id="sousmenufooter">
+                                <div class="col">
+                                    <a href="">Revue</a>
+                                </div>
+                                <div class="col">
+                                    <a href="">Recette</a>
+                                </div>
+                                <div class="col">
+                                    <a href="">Decouverte</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
 
-                <div class="col" id="da">
-                    <img src="/img/articles/metro/metro-small.jpg"/>
-                    <div class="article">
-                        <h2>Le Metro Dessert</h2>
+                <div class="col">
+                    <div class="archives" id="menufooter">
+                        <h3>Archives</h3>
+                        <div class="container" id="last">
+                        <div class="row flex-column" id="sousmenufooter">
+                            <div class="col">
+                                <a href="">2019</a>
+                            </div>
+                            <div class="col">
+                                <a href="">2018</a>
+                            </div>
+                            <div class="col">
+                                <a href="">2017</a>
+                            </div>
+                        </div>
                     </div>
+                    </div>
+                    
                 </div>
 
-                <div class="col" id="da">
-                    <img src="/img/articles/vitaly/vitaly-small.jpg"/>
-                    <div class="article">
-                        <h2>Vitaly, le végan Italien</h2>
+                
+
+                <div class="col" id="foot-form">
+                        <label for="site-search">Newsletter</label>
+                        <br>
+                        <input type="text" placeholder="Email..." name="mail" required>
+                        <br>
+                        <button type="submit">S'inscrire</button>
                     </div>
                 </div>
 
             </div>
         </div>
-        <aside>
-            <form action="/my-handling-form-page" method="post">
-                <div>
-                    <label for="site-search">Recherche</label>
-                    <br>
-                    <input type="search" id="site-search" name="q" placceholder="Recheche..."
-                      aria-label="Search through site content"><br>
-                    <button>Search</button>
-                </div>    
-                <div></div>
-                    <input type="text" placeholder="Email address" name="mail" required>
-                    <br>
-                    <button type="submit">S'inscrire</button>
-            </form>
-                
-            
-        <aside></aside>    
-    </main>
-
-    <footer>
-
     </footer>
 
     <script src="bootstrap/bootstrap.js"></script>

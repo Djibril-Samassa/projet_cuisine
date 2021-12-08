@@ -59,37 +59,122 @@
 
 /*-----MAIN-----*/
 main{
-    padding:10px;
+    padding:5px;
 }
 
-main>h3{
+main>h2{
     font-family:"Oswald";
-    margin:5vh 0 5vh 0;
+    margin:8vh 0 5vh 0;
     text-align:center;
 }
 
+.general{
+    margin:0px;
+}
 
 #da{
     display:flex;
-    background-color: green;
-    margin:2em;
-    padding:2em;
+    margin:10px auto;
 }
 
-.col img{
-    width:180px;
-    height:100px;
+.resto-image{
+    width:230px;
+    height:130px;
 }
 
-.article>h2{
+.article{
+    text-align:left;
+    margin:0px 0px 0px 20px;
+}
+
+.article>h3{
     font-family:"courgette";
+}
+
+.article>p{
+    font-family:"oswald"
 }
 
 aside{
     text-align:end;
+    padding-top:10rem;
     
 }
 button{
+    color:black;
+    background-color:white;
+    border-radius:0.41rem;
+    width: 9.3rem;
+    border-width:0.1rem;
+    font-style:bolder;
+    font-family: "oswald";
+}
+
+#cont22{
+    padding:0;
+}
+
+.retour{
+    display: flex;
+    align-items: center;
+    font-family:"oswald";
+    margin-top:1em;
+    color:grey;
+    text-align: left;
+}
+
+.retour p{
+    margin-left:5px;
+}
+
+.formulaire{
+    background-color: purple;
+}
+
+form div {
+    margin-bottom:1rem;
+}
+label{
+    font-family:"courgette";
+}
+input{
+    font-family: "oswald";
+    border-color:rgb(189, 189, 189);
+    border-radius:0.41rem;
+    border-style: solid;
+}
+.share{
+    font-family:"courgette";
+}
+
+footer{
+    background-color:black;
     color:white;
-    border-radius:1%;
+}
+
+#last{
+    padding:0;
+}
+
+#menufooter h3{
+    padding:0;
+    font-family: "courgette";
+}
+
+#sousmenufooter a{
+    color:white;
+    text-align:left;
+    font-family: "oswald";
+}
+
+footer h5{
+    font-family: "courgette";
+}
+
+
+.col label{
+    text-align:left;
+}
+input button{
+    display:flex;
 }
