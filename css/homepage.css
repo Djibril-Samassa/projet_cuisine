@@ -18,16 +18,21 @@
     font-family:"oswald";
 }
 
+.container-fluid{
+    padding-bottom: 2vh;
+    border-bottom:1px solid gray;
+}
+
 .container-fluid>div{
     display: flex;
     flex-direction: row-reverse;
 }
 
 .header{
-	background: transparent url('/img/header.jpg');
     min-width: 100%;
     max-width: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('/img/header.jpg');
+    background-position: center;
 }
 
 .container{
