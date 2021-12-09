@@ -89,8 +89,6 @@ main>h2{
 
 .article>h3{
     font-family:"courgette";
-    font-weight: 600;
-    font-size:1.4em;
 }
 
 .article>p{
@@ -222,24 +220,3 @@ footer h5{
     border:1px solid white;
 }
 
-#rtcv{
-    margin-top:10px;
-    padding: 0px;
-}
-
-.reseauxv2{
-    display: flex;
-    justify-content: space-between;
-    width:150px
-}
-
-#logocontainer{
-    border-radius:4px;
-    color:black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:35px;
-    height:35px;
-    background-color: white;
-}
