@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+a<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -22,9 +22,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#" id="right-link">Acceuil</a>
-                    <a class="nav-link" href="#" id="right-link">Equipe</a>
+                    <a class="nav-link" href="../pages/team.html" id="right-link">Equipe</a>
                     <a class="nav-link" href="#" id="right-link">Blog</a>
-                    <a class="nav-link disabled" id="right-link">Contact</a>
+                    <a class="nav-link" href="./pages/contact.html" id="right-link" >Contact</a>
                 </div>
                 </div>
             </div>
@@ -46,76 +46,79 @@
 
     <main>
 
-        <h2>Derniers articles</h2>
-        <div class="container" id="general">
+    <h2>Derniers articles</h2>
 
-            <div class="row">
-                <div class="col-lg-9 col-md-12">
-                    <div class="container" id="cont22">
-                        <div class="row flex-column" id="article-container">
-            
-                            <div class="col" id="da">
-                                <img class="resto-image" src="/img/articles/suzette/suzette-small.jpg"/>
-                                <div class="article">
-                                    <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                                    <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au fromet ou au sarrazin</p>
-                                </div>
-                            </div>
-            
-                            <div class="col" id="da">
-                                <img class="resto-image" src="/img/articles/metro/metro-small.jpg"/>
-                                <div class="article">
-                                    <h3>Le Metro Dessert</h3>
-                                    <p>Germain est ferrovipathe (ndlr: fan de train). son fils Maxime est pâtissier. Ils ont décider de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument. Mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
-                                </div>
-                            </div>
-            
-                            <div class="col" id="da">
-                                <img class="resto-image" src="/img/articles/vitaly/vitaly-small.jpg"/>
-                                <div class="article">
-                                    <h3>Vitaly, le végan Italien</h3>
-                                    <p>Quand on pense italien. On pense lasagne et jambon de parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivors. Cette fois, c'est moi Tony qui vais le tester pour vous</p>
-                                </div>
-                            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="row flex-column" id="article-container">
 
-                            <div class="retour">
-                                <span aria-hidden="true">&laquo;</span>
-                                <p class="retour"> voir les articles precedentes</p>
+                    <div class="col" id="da">
+                        <img class="resto-image" src="/img/articles/suzette/suzette-small.jpg"/>
+                            <div class="article">
+                                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                                <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au fromet ou au sarrazin</p>
                             </div>
-                            
-            
+                    </div>
+    
+                    <div class="col" id="da">
+                        <img class="resto-image" src="/img/articles/metro/metro-small.jpg"/>
+                        <div class="article">
+                            <h3>Le Metro Dessert</h3>
+                            <p>Germain est ferrovipathe (ndlr: fan de train). son fils Maxime est pâtissier. Ils ont décider de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument. Mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
                         </div>
                     </div>
-                </div>
+    
+                    <div class="col" id="da">
+                        <img class="resto-image" src="/img/articles/vitaly/vitaly-small.jpg"/>
+                        <div class="article">
+                            <h3>Vitaly, le végan Italien</h3>
+                            <p>Quand on pense italien. On pense lasagne et jambon de parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivors. Cette fois, c'est moi Tony qui vais le tester pour vous</p>
+                        </div>
+                    </div>
 
-
-                <div class="col-lg-3 col-md-hidden flex-column" id="formulaire">
-                    <form action="/my-handling-form-page" method="post">
-                        <div class="form-content">
-                            <label for="site-search">Recherche</label>
-                            <br>
-                            <input type="search" id="site-search" name="q" placeholder="Recherche..."
-                            aria-label="Search through site content"><br>
-                            <button>Ok</button>
-                        </div>    
-                        <div class="form-content">
-                            <label for="site-search">Newsletter</label>
-                            <br>
-                            <input type="text" placeholder="Email..." name="mail" required>
-                            <br>
-                            <button type="submit">S'inscrire</button>
-                        </div> 
-                    </form>
-                    <p>Partager</p>
-                    <div class="reseaux">
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
-                        <i class="fab fa-twitter"></i>
-                    </div>  
+                    <div class="retour">
+                        <span aria-hidden="true">&laquo;</span>
+                        <p class="retour"> voir les articles precedentes</p>
+                    </div>
                 </div>
             </div>
+
+            <div class="d-none d-lg-block col-3" id="formulaire">
+                <form action="/my-handling-form-page" method="post">
+                    <div class="form-content">
+                        <label for="site-search">Recherche</label>
+                        <br>
+                        <input type="search" id="site-search" name="q" placeholder="Recherche...">
+                        <aria-label="Search through site content"><br>
+                        <button>Ok</button>
+                    </div>    
+                    <div class="form-content">
+                        <label for="site-search">Newsletter</label>
+                        <br>
+                        <input type="text" placeholder="Email..." name="mail" required>
+                        <br>
+                        <button type="submit">S'inscrire</button>
+                    </div> 
+                </form>
+                <p>Partager</p>
+                <div class="reseaux">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+
+
+
+
         </div>
+    </div>
+
+        
+        
 
     </main>
 

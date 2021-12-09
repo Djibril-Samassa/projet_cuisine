@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/page2.css">
     <link rel="stylesheet" href="../fontawesome/css/all.css">
-    <title>Contact</title>
+    <title>Cuiz'ine Page 2</title>
 </head>
+
+
 
 <body>
     <header class="header" id="entete">
@@ -22,7 +24,7 @@
                     <a class="nav-link active" aria-current="page" href="../index.html" id="right-link">Acceuil</a>
                     <a class="nav-link" href="../pages/team.html" id="right-link">Equipe</a>
                     <a class="nav-link" href="#" id="right-link">Blog</a>
-                    <a class="nav-link disabled" id="right-link">Contact</a>
+                    <a class="nav-link" href="./pages/contact.html" id="right-link" >Contact</a>
                 </div>
                 </div>
             </div>
@@ -33,49 +35,43 @@
                             <img src="../img/logo_square_white.png" class="logo">
                         </div>
                         <div class="col">
-                            <h1 class="header-title">Nous contacter</h1>
+                            <h1 class="header-title">Cuiz'ine</h1>
                         </div>
-                        
+                        <div class="col">
+                            <h2 class="header-title">Le Mag Cuisine</h2>
+                        </div>
                     </div>
                 </div>
     </header>
 
     <main>
-        <div class="container" id="general">
 
-            <div class="row">
-                <div class="col-lg-9 col-md-12">
-                    <div class="container" id="cont22">
-                        <div class="row flex-column" id="article-container">           
-                            <div class="col" id="da">
-                                <div class="article">
-                                    <h3>Contact</h3>
-                                    <h3 class= "front">Adresse </h3>
-                                    <p class= "front">Station F<br> 5 Pavis Alan Turing<br> 75013 Paris</p>
-                                    <br>
-                                    <div class="mapouter">
-                                        <div class="gmap_canvas">
-                                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=station%20f%20parvis%20alan%20turing&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                        </iframe>
-                                        <a href="https://www.whatismyip-address.com/divi-discount/">
-                                        </a><br>
-                                        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}
-                                        </style>
-                                        <a href="https://www.embedgooglemap.net">google maps on your website
-                                        </a>
-                                        <style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style>
-                                        </div>
+    <h2>Derniers articles</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12">
+                <div class="container">
+                    <div class="row flex-column">
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="resto-image" src="../img/recipes/paella/paella-small.jpg"/>
+                                    </div>
+                                    <div class="col">
+                                        <h3>La Paëlla à la maison</h3>
+                                        <p>Une paëlla rapide, pas chère, et gouteuse.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+            </div>
+           
 
-
-                <div class="col-3 flex-column" id="formulaire">
+            <div class="col-3">
+                <div class="d-none d-lg-block" id="formulaire">
                     <form action="/my-handling-form-page" method="post">
                         <div class="form-content">
                             <label for="site-search">Recherche</label>
@@ -98,19 +94,28 @@
                         <i class="fab fa-instagram"></i>
                         <i class="fab fa-youtube"></i>
                         <i class="fab fa-twitter"></i>
-                    </div>  
+                   </div>  
                 </div>
+            </div>
+             <div class="retour">
+                <p class="retour"><a nav-link" href="../index.html"> voir les articles suivants</a></p>
+                <span aria-hidden="true">&raquo;</span>
             </div>
         </div>
     </div>
 
+
+
+                
+
     </main>
+
     <footer>
 
         <div class="container">
             <div class="row">
 
-                <div class="col-3" id="titremenu">
+                <div class="col-lg-3 col-md-12" id="titremenu">
                     <div class="categorie" id="menufooter">
                         <h3>Catégories</h3>
                         <div class="container categorie" id="last">
@@ -130,7 +135,7 @@
                     
                 </div>
 
-                <div class="col-lg-4 col-md-6" id="titremenu">
+                <div class="col-lg-4 col-md-12" id="titremenu">
                     <div class="archives" id="menufooter">
                         <h3>Archives</h3>
                         <div class="container" id="last">
@@ -209,5 +214,15 @@
         </div>
 
     </footer>
-   
+
+    <script src="bootstrap/bootstrap.js"></script>
 </body>
+
+
+
+
+
+
+
+
+</html>

@@ -87,7 +87,7 @@ main>h2{
     margin:0px 0px 0px 20px;
 }
 
-.article>h3{
+.col>h3{
     font-family:"courgette";
     font-weight: 600;
     font-size:1.4em;
@@ -245,4 +245,7 @@ footer h5{
 }
 .front{
     margin-left: 2.5rem;
+}
+.col-lg-9 col-md-12{
+    margin-left: 10rem;
 }

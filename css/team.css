@@ -31,7 +31,7 @@
 .header{
     min-width: 100%;
     max-width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('/img/header.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('/img/team/team.jpg');
     background-position: center;
 }
 
@@ -51,21 +51,18 @@
     color:#FFFFFF;
 }
 
-.logo{
-    margin-bottom:2vh;
-    width:10%;
-    height:10%;
-}
 
 /*-----MAIN-----*/
 main{
     padding:5px;
 }
 
-main>h2{
-    font-family:"Oswald";
-    margin:8vh 0 5vh 0;
+h2{
+    font-family:"courgette";
+    margin:8vh 0 1vh 0;
     text-align:center;
+    color:#FFFFFF;
+
 }
 
 .general{
@@ -245,4 +242,8 @@ footer h5{
 }
 .front{
     margin-left: 2.5rem;
+}
+.images{
+    border-radius: 50%;
+    size:10%;
 }

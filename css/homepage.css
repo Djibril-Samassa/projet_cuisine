@@ -243,3 +243,28 @@ footer h5{
     height:35px;
     background-color: white;
 }
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    #da{
+        margin-left:-40px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .resto-image{
+        width:100vw;
+        height:50vh;
+    }
+
+    .article{
+        margin-top:10px;
+    }
+
+    .article>h3{
+        font-size:2em;
+    }
+    
+    .article>p{
+        font-size:1.3em;
+    }
+}
